@@ -1,0 +1,17 @@
+{
+  "baseURL" : "https://rahulshettyacademy.com/",
+  "driver" :
+  {
+    "remote" : false,
+    "browser" : "chrome",
+    "platform" : "windows"
+  },
+  "users" :
+  [
+    {
+      "userType" : "student-1",
+      "userName" : "test99@gmail.com",
+      "password" : "123456"
+    }
+  ]
+}

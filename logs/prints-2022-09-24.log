@@ -1,0 +1,4 @@
+2022-09-24 21:37:03.381 [TestNG-test=cucumber-htnl-report-demo-1] INFO  steps.LoginSteps - Data has been fetched from config.jsonData fetch from config.json 
+2022-09-24 21:37:03.828 [TestNG-test=cucumber-htnl-report-demo-1] INFO  steps.LoginSteps - Assertion is done
+2022-09-24 21:37:03.837 [AsyncHttpClient-1-4] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+2022-09-24 21:37:12.904 [TestNG-test=cucumber-htnl-report-demo-1] INFO  steps.LoginSteps - The URL is successfully initialized

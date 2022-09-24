@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 57.974 s <<< FAILURE! - in TestSuite
+runner.TestNGRunner.runScenario["Login with valid uerName and invalid password", "I want to verify that the Login functionality is working properly"](3)  Time elapsed: 12.753 s  <<< FAILURE!
+java.lang.AssertionError: expected [Your email or password is incorrect.(Intentionally Result Failing Text)] but found [Your email or password is incorrect.]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at steps.LoginSteps.loginShouldFailWithAnError(LoginSteps.java:71)
+	at ✽.login should fail with an error "Your email or password is incorrect.(Intentionally Result Failing Text)"(file:///C:/Users/Asus/IdeaProjects/cucumber-htnl-report-demo/src/test/resources/features/login.feature:31)
+
