@@ -18,7 +18,7 @@ Feature: I want to verify that the Login functionality is working properly
     When I click LogIn button
     Then login should fail with an error "<err>"
     Examples:
-      | userName         | passWord | err|
+      | userName         | passWord | err                                  |
       | test88@gmail.com | 123456   | Your email or password is incorrect. |
 
 
@@ -30,7 +30,7 @@ Feature: I want to verify that the Login functionality is working properly
     When I click LogIn button
     Then login should fail with an error "<err>"
     Examples:
-      | userName         | passWord | err                                  |
-      | test99@gmail.com | 456935   | Your email or password is incorrect.(Intentionally Result Failing Text)|
+      | userName         | passWord | err                                                                     |
+      | test99@gmail.com | 456935   | Your email or password is incorrect.(Intentionally Result Failing Text) |
 
 

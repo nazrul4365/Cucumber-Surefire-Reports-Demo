@@ -1,1 +1,2 @@
-# Cucumber-Surefire-Reports-Demo
+This MAVEN project is specially designed for various types of report generation. I used Selenium web driver to automates web browsers and JAVA for scripting language. All test cases in this project are written in BDD style and then integrated with the TestNG framework. As a result, it has generated pretty "Cucumber-html reports" along with TestNG "surefire reports". This framework generates extens-html reports, extens-pdf reports and spark-html reports with test-failed images attached.  
+
